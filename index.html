@@ -18,7 +18,7 @@
          <div class="flex items-center gap-4">
            <div class="flex rounded-full p-3 gap-2  bg-[#F4F7FF]">
             <input type="radio" name="radio-9" class="radio radio-info" checked="checked" />
-            <h2>23</h2>
+            <h2 id="taks-Input" class="font-bold text-base">23</h2>
            </div>
             <img id="theme-btn" class="ml-6" src="assets/theme-btn.png" alt="">
          </div>
@@ -35,7 +35,7 @@
                 <input type="radio" name="radio-9" class="radio radio-info" checked="checked" />
                 <div>
                     <p>Task Assigned </p>
-                    <h2>05</h2>
+                    <h2 id="task-list" class="font-bold text-base">06</h2>
                 </div>
                </div>
                <!-- 2nd card -->
@@ -59,14 +59,14 @@
                 <!-- 1st card -->
                 <div class="w-[342px] h-[317px] rounded-lg p-6 space-y-3 bg-[#F4F7FF]">
                   <p class="bg-[#FFFFFF] w-[114px] p-2 h-[40px]">ShopEase</p>
-                    <h2 class="text-[24px]  font-medium">Fix Mobile Button Issue </h2>
+                    <h2 id="fix-mobile" class="text-[24px]  font-medium">Fix Mobile Button Issue </h2>
                    <div class="bg-[#FFFFFF]  w-[294px] h-[98px] p-1 rounded-lg">
                     <p class="font-normal text-base  text-[#000000] ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
                    </div>
                     <div class="flex justify-between ">
                         <p class="text-[16px] ">Deadline <br> <span class="font-bold ">21 March 2025</span></p>
-                        <button class="btn btn-primary">Completed</button>
+                        <button id="btn-complite" class="btn btn-primary">Completed</button>
                     </div>
 
 
@@ -81,7 +81,7 @@
                      </div>
                       <div class="flex justify-between ">
                           <p class="text-[16px] ">Deadline <br> <span class="font-bold ">21 March 2025</span></p>
-                          <button class="btn btn-primary">Completed</button>
+                          <button id="btn-dark" class="btn btn-primary">Completed</button>
                       </div>
   
   
@@ -97,7 +97,7 @@
                      </div>
                       <div class="flex justify-between ">
                           <p class="text-[16px] ">Deadline <br> <span class="font-bold ">21 March 2025</span></p>
-                          <button class="btn btn-primary">Completed</button>
+                          <button id="btn-optimize" class="btn btn-primary">Completed</button>
                       </div>
   
   
@@ -113,7 +113,7 @@
                      </div>
                       <div class="flex justify-between ">
                           <p class="text-[16px] ">Deadline <br> <span class="font-bold ">21 March 2025</span></p>
-                          <button class="btn btn-primary">Completed</button>
+                          <button id="btn-emoji" class="btn btn-primary">Completed</button>
                       </div>
   
   
@@ -129,7 +129,7 @@
                      </div>
                       <div class="flex justify-between ">
                           <p class="text-[16px] ">Deadline <br> <span class="font-bold ">21 March 2025</span></p>
-                          <button class="btn btn-primary">Completed</button>
+                          <button id="btn-api" class="btn btn-primary">Completed</button>
                       </div>
   
   
@@ -145,7 +145,7 @@
                      </div>
                       <div class="flex justify-between ">
                           <p class="text-[16px] ">Deadline <br> <span class="font-bold ">21 March 2025</span></p>
-                          <button class="btn btn-primary">Completed</button>
+                          <button id="btn-job" class="btn btn-primary">Completed</button>
                       </div>
   
   
@@ -154,17 +154,31 @@
             </div>
           </div>
           <!-- history -->
-           <div class="w-[366px] h-[918px] rounded-lg justify-items-center py-2 space-y-3 bg-[#FFFFFF]">
-             <div class="flex items-center justify-center gap-4 mt-6 ">
+           <div class="w-[366px] h-[918px] mx-auto rounded-lg justify-items-center   py-2 space-y-3 bg-[#FFFFFF]">
+          
+            <div class="flex items-center justify-center gap-4 mt-6 ">
                 <img src="assets/activity.png" alt="">
                 <p class="text-xl font-medium">Activity Log</p>
                 </div>
-                <button class="btn btn-primary ">Clear History</button>
+               <div class="gap-4">
+                <button id="btn-clear" class="btn btn-primary gap-5 ">Clear History</button>
+               </div>
+                <div id="transection-container" class="  rounded-lg  gap-10   font-semibold  text-xl">
+                    
+                </div>
+                
+        
            </div>
         </section>
 
     </main>
 <script src="scripts/main.js"></script>
-
+<script src="scripts/card1.js"></script>
+<script src="scripts/card2.js"></script>
+<script src="scripts/card3.js"></script>
+<script src="scripts/card4.js"></script>
+<script src="scripts/card5.js"></script>
+<script src="scripts/card6.js"></script>
+<script src="scripts/historyclear.js"></script>
 </body>
 </html>
