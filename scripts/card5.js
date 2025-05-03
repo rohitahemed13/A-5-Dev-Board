@@ -28,7 +28,7 @@ document.getElementById('btn-api').addEventListener('click',function(event){
 
   document.getElementById('btn-api').addEventListener('click',function(event){
     event.preventDefault();
-    
+    this.disabled = true;
 
    let time = new
         Date().toLocaleTimeString();

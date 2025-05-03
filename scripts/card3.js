@@ -28,7 +28,7 @@ document.getElementById('btn-optimize').addEventListener('click',function(event)
 
   document.getElementById('btn-optimize').addEventListener('click',function(event){
     event.preventDefault();
-    
+    this.disabled = true;
 
    let time = new
         Date().toLocaleTimeString();

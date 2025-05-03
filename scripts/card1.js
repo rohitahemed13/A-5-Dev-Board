@@ -28,7 +28,7 @@ document.getElementById('btn-complite').addEventListener('click',function(event)
 
   document.getElementById('btn-complite').addEventListener('click',function(event){
     event.preventDefault();
-    
+    this.disabled = true;
 document.getElementById('btn-complite').style.gap= '10px'
    let time = new
         Date().toLocaleTimeString();
