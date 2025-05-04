@@ -35,7 +35,8 @@ document.getElementById('btn-complite').style.gap= '10px'
         let result = 'You have complete the taks  ' +  'Fix Mobile Button Issue'  + 'at'+ time;
      
 
-        document.getElementById('transection-container').innerHTML+= '<p>' +  result  + '<p>'; 
+        document.getElementById('transection-container').innerHTML+= '<p>' +  result  + '<p>';
+    
         
         document.getElementById('transection-container').style.backgroundColor = '#F4F7FF';
         document.getElementById('transection-container').style.padding = '5px';
