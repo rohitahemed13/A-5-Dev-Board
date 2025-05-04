@@ -37,8 +37,7 @@ document.getElementById('btn-dark').addEventListener('click',function(event){
         document.getElementById('transection-container').innerHTML+= '<p>' + result + '<p>'; 
         
         document.getElementById('transection-container').style.backgroundColor = '#F4F7FF';
-        document.getElementById('transection-container').style.margin = '10px';
-
+        
         document.getElementById('transection-container').style.padding = '10px';
         document.getElementById('transection-container').style.fontSize = '16px';
         document.getElementById('transection-container').style.width = '80%';
